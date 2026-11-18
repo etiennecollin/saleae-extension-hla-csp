@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "apiVersion": "1.0.0",
+  "author": "etiennecollin",
+  "description": "Decode libcsp KISS packets carrying selectable CSP 1.x or CSP 2.x headers, including CRC-32C validation.",
+  "name": "libcsp KISS / CSP 1.x-2.x Decoder",
+  "extensions": {
+    "libcsp KISS / CSP 1.x-2.x": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "CspKissHla.CspKissHla"
+    }
+  }
+}
